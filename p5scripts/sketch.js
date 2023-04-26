@@ -8,10 +8,8 @@ let targets = [];
 let followMe;
 let pf;
 function setup() {
- let canvas = createCanvas(innerWidth, innerHeight - 70)
- canvas.position(0, 70);
- canvas.parent('canvas-container')
- canvas.style('z-index', -1)
+ let canvas = createCanvas(innerWidth, innerHeight)
+
  G = createVector(0, 0.2);
 
 
