@@ -101,7 +101,7 @@ const manageScenes = () => {
 	let txt;
 	let col = 255;
 	if(scene == 0){
-		txt = "Hello, and welcome to my website! Click the space key to see all my different projects!"
+		txt = "Welcome to my website! Click the space bar to see a collection of some of my p5.js projects!"
 
 	} else if (scene == 1){
 		txt = 'Drag the bouncy pendulum!';
